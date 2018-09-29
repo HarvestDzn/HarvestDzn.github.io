@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto");
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #000;
+  font-family: sans-serif, "OpenSans"; }
+
+.back {
+  overflow: hidden;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#blue {
+  background-image: url("Pics/ink-water.png"); }
+
+#green {
+  background-image: url("Pics/ink-water-green.png"); }
+
+#orange {
+  background-image: url("Pics/ink-water-orange.png"); }
+
+#pink {
+  background-image: url("Pics/ink-water-pink.png"); }
+
+#purple {
+  background-image: url("Pics/ink-water-purple.png"); }
+
+#red {
+  background-image: url("Pics/ink-water-red.png"); }
+
+#yellow {
+  background-image: url("Pics/ink-water-yellow.png"); }
+
+.banner {
+  width: 80%;
+  margin: 35vh auto;
+  position: relative;
+  text-align: center;
+  color: #000;
+  font-size: 3em; }
+  .banner img {
+    width: 100%;
+    border: solid 2px #fff; }
+
+.avi {
+  width: 80%;
+  margin: 30vh auto;
+  position: relative;
+  text-align: center;
+  color: #000;
+  font-size: 3em; }
+  .avi img {
+    width: 50%;
+    border: solid 2px #fff; }
+
+.menu-overlay {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  vertical-align: middle;
+  transition: all ease-in-out 0.5s; }
+
+.menu-bar {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  transition: all 1; }
+  .menu-bar ul {
+    text-align: center;
+    margin: 25vh 0 auto 0; }
+    .menu-bar ul li {
+      cursor: pointer;
+      list-style-type: none;
+      display: block;
+      font-size: 2.5em;
+      padding: 7px 5px;
+      margin: 40px 7px;
+      transition: all 0.3; }
+      .menu-bar ul li a {
+        text-decoration: none;
+        color: #fff; }
+
+.Twitter {
+  width: 50%;
+  height: 100vh;
+  float: right;
+  text-align: center; }
+  .Twitter a {
+    color: #fff;
+    text-decoration: none; }
+    .Twitter a img {
+      width: 200px;
+      height: 200px;
+      border: solid 2px #fff;
+      border-radius: 100px;
+      margin: 28vh 0 auto 0; }
+
+.non-active {
+  transform: translate(0, -100%);
+  transition: all ease-in-out 1s; }
+
+.non-active2 {
+  transform: translate(0, 100%);
+  transition: all ease-in-out 1s; }
+
+.present {
+  opacity: 1; }
+
+/*# sourceMappingURL=gallery.css.map */
