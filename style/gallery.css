@@ -119,4 +119,8 @@ body {
 .present {
   opacity: 1; }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
+  .back {
+    background-attachment: relative; } }
+
 /*# sourceMappingURL=gallery.css.map */
