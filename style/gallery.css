@@ -20,25 +20,25 @@ body {
   background-size: cover; }
 
 #blue {
-  background-image: url("Pics/ink-water.png"); }
+  background-image: url("Pics/ink-water.jpg"); }
 
 #green {
-  background-image: url("Pics/ink-water-green.png"); }
+  background-image: url("Pics/ink-water-green.jpg"); }
 
 #orange {
-  background-image: url("Pics/ink-water-orange.png"); }
+  background-image: url("Pics/ink-water-orange.jpg"); }
 
 #pink {
-  background-image: url("Pics/ink-water-pink.png"); }
+  background-image: url("Pics/ink-water-pink.jpg"); }
 
 #purple {
-  background-image: url("Pics/ink-water-purple.png"); }
+  background-image: url("Pics/ink-water-purple.jpg"); }
 
 #red {
-  background-image: url("Pics/ink-water-red.png"); }
+  background-image: url("Pics/ink-water-red.jpg"); }
 
 #yellow {
-  background-image: url("Pics/ink-water-yellow.png"); }
+  background-image: url("Pics/ink-water-yellow.jpg"); }
 
 .banner {
   width: 80%;
